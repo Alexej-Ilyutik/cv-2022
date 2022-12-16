@@ -12,6 +12,10 @@ body {
   padding: 2.5rem 1.5rem;
 }
 
+p {
+  padding-bottom: .5rem;
+}
+
 .header {
   border-bottom: 0.05rem solid;
 }
@@ -62,11 +66,15 @@ body {
   border-bottom: 0.05rem solid;
 }
 
+.main__aside {
+  width: 13rem;
+}
+
 .main__article {
   width: 25rem;
 }
 
-.article__item{
+.article__item {
   padding-bottom: 1.5rem;
 }
 
@@ -82,9 +90,18 @@ body {
   padding-bottom: 0.4rem;
 }
 
-.article__block{
+.article__block {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-bottom: 1rem;
+}
+
+.article__list {
+  padding-left: 1.5rem;
+}
+
+.main__pdf {
+  max-width: 7rem;
+  margin: 2rem auto 1rem auto;
 }
